@@ -76,6 +76,7 @@ span{
     background-color: rgb(132, 219, 225);
 }
 .boxtag1, .boxtag2, .boxtag3, .boxtag4{
+    margin-top: 5px;
     clear: both;
     width: 232px;
     height: 40px;
@@ -96,6 +97,7 @@ span{
     background-color: rgb(178, 223, 226);
 
 }
+
 
 
 
