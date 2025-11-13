@@ -54,8 +54,7 @@ footer{
     counter-increment: 1;
 }
 span{
-    float: left;
-    height: 26px;
+    height: 28px;
     line-height: 30px;
     width: 30px;
     text-align: center;
@@ -94,3 +93,4 @@ span{
     background-color: rgb(178, 223, 226);
 
 }
+
