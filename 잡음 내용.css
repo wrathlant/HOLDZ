@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=swap');
+*{
+font-family: 'Chiron Goround TC','Asta Sans' cursive;
+}
+p, h1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header{
+    border: 4px solid black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: none;
+    padding-left: 20px;
+    width: max(656px);
+}
+#page-1{
+    background-color: rgb(255, 119, 119);
+}
+#page-2{
+    background-color: rgb(248, 243, 137);
+}
+#page-3{
+    background-color: rgb(86, 238, 144);
+}
+#page-4{
+    background-color: rgb(132, 219, 225);
+}
+.main{
+    border: 4px solid rgb(0, 0, 0);
+    border-bottom: none;
+    width: max(676px);
+    margin-bottom: 0px;
+}
+.postergrid{
+    display: grid;
+    grid-template-columns: repeat(2,338px);
+    grid-template-rows: repeat(2,500px);
+    gap: 0px;
+}
+#poster1a{
+    background-image: url("poster1a.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50rem;
+    grid-column: 1;
+    grid-row: 1;
+}
+#poster1b{
+    background-image: url("poster1b.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50rem;
+    grid-column: 2;
+    grid-row: 1;
+}
+#poster2a{
+    background-image: url("poster2a.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50rem;
+    grid-column: 1;
+    grid-row: 2;
+}
+#poster2b{
+    background-image: url("poster2b.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50rem;
+    grid-column: 2;
+    grid-row: 2;
+}
+#poster3{
+    background-image: url("sun.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10rem;
+    width: 10rem;
+    float: right;
+}
+#pic001{
+    background-image: url("pic001.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+#pic002{
+    background-image: url("pic002.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#pic003{
+    background-image: url("pic003.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+#pic004{
+    background-image: url("pic004.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#pic005{
+    background-image: url("pic005.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+#pic006{
+    background-image: url("pic006.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#pic007{
+    background-image: url("pic007.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    margin: 0 auto;
+}
+#pic008{
+    background-image: url("pic008.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 656px;
+    height: 700px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    clear: both;
+    margin: 0 auto;
+}
+#pic009{
+    background-image: url("pic009.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    clear: both;
+    margin: 0 auto;
+}
+#pic010{
+    background-image: url("pic010.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    clear: both;
+    margin: 0 auto;
+}
+#pic011{
+    background-image: url("pic011.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    float: left;
+    margin: 0 auto;
+}
+#pic012{
+    background-image: url("pic012.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#pic013{
+    background-image: url("pic013.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    clear: both;
+}
+footer{
+    clear: both;
+    border: 4px solid black;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    width: max(676px);
+}
+.buttonbox{
+    height: 40px;
+}
+.previous, .next{
+    width: 40px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.previous{
+    float: left;
+    margin-left: 20px;
+}
+.next{
+    float: right;
+    margin-right: 20px
+}
+:is(.previous, .next):hover{
+    background-color: aquamarine;
+}
+.bold{
+    font-weight: bold;
+}
+.guestbook>li{
+    list-style-type: none;
+    background-image: url("leaf.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(191, 255, 95, 0.3);
+}

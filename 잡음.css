@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+*{
+font-family: 'Chiron Goround TC', cursive;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    border: 2px solid black;
+    margin: 0.5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: rgba(255, 228, 196, 0.4);
+    transition: background-color 0.3s;
+}
+header{
+    border: 4px solid black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: none;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    width: 338px;
+}
+.main{
+    border: 4px solid black;
+    border-bottom: none;
+    background-image: url("mainposter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    width: 338px;
+
+}
+footer{
+    border: 4px solid black;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    width: 338px;
+}
+nav{
+    border: 4px solid black;
+    width: 338px;
+}
+ol{
+    padding: 0px;
+    text-align: center;
+}
