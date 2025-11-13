@@ -60,6 +60,9 @@ span{
     text-align: center;
     position: absolute;
 }
+.box1, .box2, .box3, .box4{
+    height: 28px;
+}
 .box1{
     background-color: rgb(255, 119, 119);
 }
@@ -93,4 +96,5 @@ span{
     background-color: rgb(178, 223, 226);
 
 }
+
 
